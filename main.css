@@ -1,0 +1,43 @@
+body{
+	font-family: 'Courier New', sans-serif;
+}
+img{
+	height: 100px;
+}
+
+.who{
+	text-align: center;
+}
+.sa{
+	font-family: 'Courier New', sans-serif;
+	text-align: right; 
+	font-size: 40px;
+	right: 25px;	
+}
+.sp{
+	font-family: 'Courier New', sans-serif;
+	font-size: 40px;
+}
+.win{
+	color: green;
+}
+.loo{
+	color: red;
+}
+.tie{
+	color: black;
+}
+.over{
+	position: absolute;
+	z-index: 99;
+}
+.ino{
+	text-align:center; 
+}
+#over1{
+	text-align:center; 
+}
+input{
+	height: 100px;
+	width: 150px;
+}

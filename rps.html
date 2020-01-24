@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors Game</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<body style="background-color:gray;">	
+	<center><h1>ROCK PAPER SCISSORS! </h1></center>
+	<center><h1>LET'S PLAY NOW!!! </h1></center>
+	<center><h1>GET READY.... </h1></center>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<div class="row ">
+			<div class="col-md-3 sa" id="sa">0</div>
+			<div class="col-md-3">
+				<center>
+				<h3>AI</h3>
+				<div class="ai" id="ai"></div>
+				</center>
+				</div>
+		<div class="col-md-3">
+			<center>
+			<h3>Player</h3>
+			<div class="player" id="player"></div>
+			</center>
+		</div>
+		<div class="col-md-3 sp" id="sp">0</div>
+	</div>
+	<div id="over"></div>
+	<div id="over1">
+		<div class="row">
+			<div class="col-md-12 who"id="res"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<center>
+					<button onclick="rps('1')"class="rock img-responsive img-fluid in"><img src="rock.1.png"></button>	
+					<button onclick="rps('2')"class="paper img-responsive img-fluid in"><img src="paper.1.png"></button>
+					<button onclick="rps('3')"class="scissors img-responsive img-fluid in"><img src="rock.2.png"></button>
+				</center>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+<script src = "ai.js"></script>
+</html>
